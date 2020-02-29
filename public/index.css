@@ -1,0 +1,22 @@
+.background-image {
+    background-image: url("https://images.wallpapersden.com/image/download/rick-and-morty-portal_67218_2560x1440.jpg");
+    background-color: #cccccc;
+    height: 920px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.background-image p {
+    font-family: 'get_schwiftyregular';
+    src: url('/rick-morty-app/public/webfontkit-20200229-104758/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff2') format('woff2'),
+         url('/rick-morty-app/public/webfontkit-20200229-104758/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 150px;
+    color: #4adeff;
+    text-shadow: 6px -2px #5fff29;
+}

@@ -1,0 +1,12 @@
+.font-style {
+    font-family: 'get_schwiftyregular';
+    src: url('/rick-morty-app/public/webfontkit-20200229-104758/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff2') format('woff2'),
+         url('/rick-morty-app/public/webfontkit-20200229-104758/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    
+    
+    
+    
+}
