@@ -1,7 +1,5 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-import ListGroupItem from 'react-bootstrap/ListGroupItem';
+
 
 
 class Characters extends React.Component {
@@ -58,27 +56,14 @@ class Characters extends React.Component {
         }else {
             return (
                 <div>
-                    Characters:
-                    <div>
+                    
+                    <div className="cardId">
                         {
                             item.map((item) => (
-                                <Card style={{ width: '18rem' }}>
-                                    <Card.Img variant="top" src={item.image} />
-                                    <Card.Body>
-                                        <Card.Title>{item.name}</Card.Title>
-                                        
-                                    </Card.Body>
-                                    <ListGroup className="list-group-flush">
-                                        <ListGroupItem>{item.status}</ListGroupItem>
-                                        <ListGroupItem>{item.species}</ListGroupItem>
-                                        <ListGroupItem>{item.gender}</ListGroupItem>
-                                        <ListGroupItem>{item.origin}</ListGroupItem>
-                                        <ListGroupItem>{item.location}</ListGroupItem>
-                                        <ListGroupItem>{item.episode}</ListGroupItem>
-                                    </ListGroup>
-                                    
-                                </Card>
-                                //<img src={item.image} alt="character"/>
+                                <div>
+                                <img src={item.image} alt="character"/>
+                                <p>{item.name}</p>
+                                </div>
                             ))
                         }
                         

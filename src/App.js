@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Header from './Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Characters from './pages/Characters'
+import Episodes from './pages/Episodes'
+import Locations from './pages/Locations'
 //import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
@@ -15,7 +17,8 @@ function App() {
       <Header />
       <Route  exact path="/" component={Home} />
       <Route  exact path="/characters" component={Characters} />
-      {/* <Route  exact path="/faq" component={Faq} /> */}
+      <Route  exact path="/episodes" component={Episodes} />
+      <Route  exact path="/locations" component={Locations} />
     </BrowserRouter>
       
     
