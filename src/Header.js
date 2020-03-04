@@ -1,6 +1,6 @@
 import React from 'react';
 //import {NavLink} from 'react-router-dom';
-import {Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 import './Header.css'
 
 class Header extends React.Component {
@@ -16,10 +16,10 @@ class Header extends React.Component {
                     <Nav.Link href="/episodes">Adventures</Nav.Link>
                     <Nav.Link href="/locations">Episodes</Nav.Link>
                   </Nav>
-                  <Form inline>
+                  {/* <Form inline>
                       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                       <Button variant="outline-info">Search</Button>
-                    </Form>
+                    </Form> */}
                 </Navbar>
             </div>
 
