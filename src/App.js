@@ -21,7 +21,9 @@ function App() {
       <Route  exact path="/characters" component={Characters} />
       <Route path='/characters/:page' component={Characters}/>
       <Route  exact path="/episodes" component={Episodes} />
+      <Route path='/episodes/:page' component={Episodes}/>
       <Route  exact path="/locations" component={Locations} />
+      <Route path='/locations/:page' component={Locations}/>
       <Footer />
     </BrowserRouter>
       

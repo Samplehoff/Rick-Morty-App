@@ -1,0 +1,9 @@
+.card{
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: black;
+    justify-items: baseline;
+    color: black;
+}

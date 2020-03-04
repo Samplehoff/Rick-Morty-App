@@ -90,7 +90,7 @@ class Characters extends React.Component {
                     </div>
                     <div className="button">    
                         <Link to={"/characters/" + (parseInt(this.props.match.params.page ?? 1) + 1)}><Button>Next</Button></Link>
-                        <Link to={"/characters/" + (parseInt(this.props.match.params.page ?? 1) - 1)}><Button>Next</Button></Link>
+                        
                         
                     </div>
                 </div>

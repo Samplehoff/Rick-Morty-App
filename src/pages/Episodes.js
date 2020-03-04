@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import './Characters.css';
+import './Episodes.css';
 import {Link} from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
@@ -33,7 +33,7 @@ class Episodes extends React.Component {
     
 
     functionEpisodes(page = 1) {
-        fetch("https://rickandmortyapi.com/api/episodes/?page=" + page)
+        fetch("https://rickandmortyapi.com/api/episode/?page=" + page)
         .then(res => res.json())
         .then(
             (results) => {
@@ -92,8 +92,8 @@ class Episodes extends React.Component {
                         
                     </div>
                     <div className="button">    
-                        <Link to={"/characters/" + (parseInt(this.props.match.params.page ?? 1) + 1)}><Button>Next</Button></Link>
-                        <Link to={"/characters/" + (parseInt(this.props.match.params.page ?? 1) - 1)}><Button>Next</Button></Link>
+                        <Link to={"/episodes/" + (parseInt(this.props.match.params.page ?? 1) + 1)}><Button>Next</Button></Link>
+                        
                         
                     </div>
                 </div>
