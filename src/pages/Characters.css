@@ -1,10 +1,25 @@
 .cardId {
-    background-image: url("https://images.wallpapersden.com/image/download/rick-and-morty-portal_67218_2560x1440.jpg");
-    background-color: #cccccc;
-    height: 920px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background-color: black;
+   
     
     
+}
+
+.cardId  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.card{
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: black;
+    justify-items: baseline;
+    color: black;
 }
