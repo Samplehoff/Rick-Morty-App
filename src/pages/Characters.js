@@ -9,7 +9,7 @@ class Characters extends React.Component {
         this.state = {
             error: null,
             isLoaded: false,
-            item: []
+            items: []
         }
     }
 
@@ -29,10 +29,11 @@ class Characters extends React.Component {
         .then(res => res.json())
         .then(
             (results) => {
+
                 console.log(results)
                 this.setState({
                     isLoaded: true,
-                    item: results.results
+                    items: results.results
                 })
             },
             //this is here to handle errors from the component and api
@@ -46,7 +47,7 @@ class Characters extends React.Component {
     }
 
     render() {
-        const {error, isLoaded, item} = this.state;
+        const {error, isLoaded, items} = this.state;
 
         if(error) {
             return <div>Error: {error}</div>;
@@ -59,7 +60,7 @@ class Characters extends React.Component {
                     
                     <div className="cardId">
                         {
-                            item.map((item) => (
+                            items.map((item) => (
                                 <div>
                                 <img src={item.image} alt="character"/>
                                 <p>{item.name}</p>
