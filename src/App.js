@@ -9,6 +9,8 @@ import Characters from './pages/Characters'
 import Episodes from './pages/Episodes'
 import Locations from './pages/Locations'
 //import Navbar from 'react-bootstrap/Navbar';
+import Footer from './Footer';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Route  exact path="/characters" component={Characters} />
       <Route  exact path="/episodes" component={Episodes} />
       <Route  exact path="/locations" component={Locations} />
+      <Footer />
     </BrowserRouter>
       
     
