@@ -14,7 +14,7 @@ class Header extends React.Component {
                   <Nav className="mr-auto">
                     <Nav.Link href="/characters">Multiverse</Nav.Link>
                     <Nav.Link href="/episodes">Adventures</Nav.Link>
-                    <Nav.Link href="/locations">Episodes</Nav.Link>
+                    <Nav.Link href="/locations">Earths</Nav.Link>
                   </Nav>
                   {/* <Form inline>
                       <FormControl type="text" placeholder="Search" className="mr-sm-2" />

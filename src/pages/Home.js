@@ -10,6 +10,8 @@ class Home extends React.Component {
                 <p>
                     Rick and Morty Fan Page
                 </p>
+                <br/>
+                <p></p>
             </div>    
         );
     }
