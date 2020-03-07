@@ -29,7 +29,7 @@ class Characters extends React.Component {
 
     
 
-    functionCharacters(page = 1) {
+    functionCharacters(page = 3) {
         fetch("https://rickandmortyapi.com/api/character/?page=" + page)
         .then(res => res.json())
         .then(
